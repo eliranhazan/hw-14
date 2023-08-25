@@ -1,0 +1,12 @@
+---
+- hosts: servers
+  tasks:
+
+
+  - name: Install vim and zip
+    apt:
+      pkg:
+        - vim
+        - zip
+
+      

@@ -1,0 +1,6 @@
+---
+- name: deply template to all servers
+  template:
+    src: deptemp.j2
+    dest: /tmp/test2
+

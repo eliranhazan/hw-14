@@ -1,0 +1,6 @@
+---
+- name: deply hello to all servers
+  copy:
+    src: hello
+    dest: /tmp/test1
+
